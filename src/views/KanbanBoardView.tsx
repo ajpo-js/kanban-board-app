@@ -262,7 +262,7 @@ const KanbanBoardView: React.FC<KanbanBoardViewProps> = (props) => {
             props.updateBoardName({ boardId: currentState.kanbanBoard.activeBoardId, boardName: value });
         }
     }
-
+    
     if (props.match.params.id) {
         if (props.activeBoard._id !== props.match.params.id) {
             const index = props.boards.findIndex(x => x._id === props.match.params.id);

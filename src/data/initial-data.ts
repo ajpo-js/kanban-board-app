@@ -100,36 +100,32 @@ export const boardNote =
 export const initialData = {
     "boards": [{
         "type": "kanbanBoard",
-        "name": "Welcome Board",
+        "name": "Hoja de ruta",
         "taskStatuses": [{
-            "value": "Backlog",
-            "caption": "🛌 Backlog",
+            "value": "CortoPlazo",
+            "caption": "⛏ Corto Plazo",
             "className": "status-backlog"
         }, {
-            "value": "ToDo",
-            "caption": "📯 ToDo",
+            "value": "MedianoPlazo",
+            "caption": "⛏ Mediano Plazo",
             "className": "status-todo"
         }, {
-            "value": "InProgress",
-            "caption": "⛏ InProgress",
+            "value": "LarzoPlazo",
+            "caption": "⛏ Largo Plazo",
             "className": "status-inprogress"
         }, {
-            "value": "Staging",
-            "caption": "📦 Staging",
-            "className": "status-staging"
-        }, {
-            "value": "Done",
-            "caption": "🎉 Done",
+            "value": "Implementada",
+            "caption": "🎉 Implementada",
             "className": "status-done",
             "completed": true
         }],
         "teamOrStories": [{
-            "value": "Team A",
-            "caption": "🐆 Team A",
+            "value": "Desafio1",
+            "caption": "Maximizar el ritmo de producción neta de metales valiosos",
             "className": "team-or-story-team-a"
         }, {
-            "value": "Team B",
-            "caption": "🦃 Team B",
+            "value": "Desafio2",
+            "caption": "Optimizar utilización efectiva o coeficiente de marcha en chancado y molienda",
             "className": "team-or-story-team-b"
         }, {
             "value": "Team C",

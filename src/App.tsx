@@ -126,7 +126,7 @@ const App: React.FC<AppProps> = (props) => {
         <div className={clsx(classes.app)}>
             <CssBaseline />
             <ThemeProvider theme={theme}>
-                <AppDrawer />
+                {/* <AppDrawer /> */}
                 <Switch>
                     <Route path="/" exact component={KanbanBoardView} />
                     <Route path="/kanban/:id?" component={KanbanBoardView} />
